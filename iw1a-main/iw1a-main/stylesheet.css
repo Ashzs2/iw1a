@@ -1,9 +1,6 @@
 body, html{
     background-color: #968463;
 }
-div{
-    border: 2px double #5f4e2f;
-}
 p{
     border: 2px double #5f4e2f;
 }
@@ -13,12 +10,37 @@ h1{
 .card{
     background-color: #e2cda6;
     width:250px;
-    border: 2px solid #5f4e2f;
+    border: 2px double #5f4e2f;
 }
 .card-imagem{
     margin-top:25px;
-    margin-left:30px;
+    margin-left:10px;
     margin-right:10px;
-    margin-bottom:100px;
+    margin-bottom:25px;
     border: 3px double #5f4e2f;
+}
+.card-botao{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #5f4e2f;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+}
+.card-descricao{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.card-preco{
+    font-family: Impact;
+    font-size: 25px;
+    color: #5f4e2f;
+    margin-bottom: 45px;
+    padding-left: 10%;
 }
